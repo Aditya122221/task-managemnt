@@ -1,14 +1,14 @@
-## 🎓 TubeAcademy
+## ✅ TaskMaster – Task Management App
 
+* Developed a full-stack task management system to help users create, update, and track tasks efficiently.
 
-* Developed a full-stack web application for a coaching institute, supporting three user roles: Admin, Teacher,
-and Student.
-* Implemented Admin functionalities to register students/teachers, manage salaries, and assign subjects.
-* Enabled Teachers to upload, edit, and delete educational videos for students.
-* Designed the Student experience to access and watch course videos seamlessly.
-* Created individual profile pages for all users, allowing them to update their information.
-* Built a secure authentication and authorization system for role-based access control.
-* Ensured a responsive and user-friendly UI using React and CSS.</li>
+* Users can view tasks, update status, and edit.
+
+* Built secure authentication and authorization to control access.
+
+* Created responsive and intuitive UI using React and CSS Modules.
+
+* Implemented RESTful APIs with Express.js and used MongoDB for persistent data storage.
 
 ## 🌐 Deployed Link
 
