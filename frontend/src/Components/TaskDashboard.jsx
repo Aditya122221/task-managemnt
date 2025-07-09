@@ -297,6 +297,7 @@ const TaskDashboard = () => {
 
     const handleLogOut = () => {
         localStorage.removeItem('taskToken')
+        localStorage.removeItem('userId')
         Navigate('/')
     }
 
@@ -305,7 +306,9 @@ const TaskDashboard = () => {
             Navigate('/')
         }
 
-        axios.post(`${import.meta.env.VITE_API_BASE_URL}/api/tasks`, { User_ID: location.state.User_ID }).then((res) => {
+        const id = JSON.parse(localStorage.getItem("userId"))
+
+        axios.post(`${import.meta.env.VITE_API_BASE_URL}/api/tasks`, { User_ID: id}).then((res) => {
             setTasks(res.data.task)
         }).catch((err) => {
             console.log(err)

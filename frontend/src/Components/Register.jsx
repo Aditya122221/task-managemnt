@@ -97,7 +97,8 @@ function Register() {
                     setIsClass(0)
                     setIsDis(false)
                     localStorage.setItem('taskToken', JSON.stringify(res.data.taskToken))
-                    Navigate('/home', { state: res.data.user })
+                    localStorage.setItem('userId', JSON.stringify(res.data.user.User_ID))
+                    Navigate('/home')
                 }
             }).catch((err) => {
                 setIsDis(false)
