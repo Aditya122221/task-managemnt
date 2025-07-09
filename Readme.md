@@ -12,7 +12,7 @@
 
 ## 🌐 Deployed Link
 
-<a href="https://tube-academy.vercel.app/" target="_blank">https://tube-academy.vercel.app/</a>
+<a href="https://task-managemnt-ashen.vercel.app/" target="_blank">https://task-managemnt-ashen.vercel.app/</a>
 
 ## 📁 Directory Structure
 
